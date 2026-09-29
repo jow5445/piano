@@ -1,0 +1,53 @@
+
+body {
+    background-image: url("https://cdn.hackclub.com/01a0eaed-ce6e-7b01-b1a3-44cc5ccf40d0/Screenshot%20From%202026-09-29%2005-10-13.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piano {
+    display: flex;
+}
+
+.key {
+    height: calc(var(--width) *4);
+    width: var(--width);
+    box-shadow: inset 0px 0px 5px black;
+}
+
+.White {
+    --width: 90px;
+    height: 350px;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+.Black {
+    --width: 60px;
+    height: 240px;
+    background-color: black;
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 1;
+    border: 1px solid #333;
+}
+
+.White.active {
+    background-color: #ccc;
+}
+
+.Black.active {
+    background-color: #333;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
