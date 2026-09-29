@@ -1,4 +1,6 @@
-# Piano 🎹
+# ![Piano]()
+
+![Piano](https://user-cdn.hackclub-assets.com/01a0eafa-8259-7be4-b8eb-5a327a9bea7c/Screenshot%20From%202026-09-29%2005-23-27.png)
 
 A small piano I made using HTML, CSS, and JavaScript.
 
